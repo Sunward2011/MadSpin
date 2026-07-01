@@ -1,0 +1,15 @@
+{
+  "key.madspin.toggle": "Toggle Spin",
+  "key.categories.misc": "Miscellaneous",
+  "status.madspin.enabled": "Spin: ON",
+  "status.madspin.disabled": "Spin: OFF",
+  "screen.madspin.title": "MadSpin Settings",
+  "screen.madspin.bind": "Bind",
+  "screen.madspin.waiting": "Press any key...",
+  "screen.madspin.reset": "Reset",
+  "screen.madspin.speed": "Speed",
+  "screen.madspin.mode": "Mode",
+  "screen.madspin.mode.spin": "Spin",
+  "screen.madspin.mode.back": "Back",
+  "screen.madspin.head_angle": "Head Angle"
+}

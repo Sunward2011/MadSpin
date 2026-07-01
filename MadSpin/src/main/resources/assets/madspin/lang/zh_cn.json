@@ -1,0 +1,15 @@
+{
+  "key.madspin.toggle": "切换旋转",
+  "key.categories.misc": "杂项",
+  "status.madspin.enabled": "旋转：已开启",
+  "status.madspin.disabled": "旋转：已关闭",
+  "screen.madspin.title": "MadSpin 设置",
+  "screen.madspin.bind": "绑定",
+  "screen.madspin.waiting": "按下任意键...",
+  "screen.madspin.reset": "重置",
+  "screen.madspin.speed": "旋转速度",
+  "screen.madspin.mode": "模式",
+  "screen.madspin.mode.spin": "转圈",
+  "screen.madspin.mode.back": "背身",
+  "screen.madspin.head_angle": "头部角度"
+}

@@ -1,0 +1,16 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.madspin.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "refmap": "madspin.refmap.json",
+  "mixins": [
+    "PlayerModelMixin",
+    "PlayerRendererMixin",
+    "GuiMixin"
+  ],
+  "client": [],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
