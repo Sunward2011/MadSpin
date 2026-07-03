@@ -2,6 +2,7 @@ package com.madspin.mixin;
 
 import com.mojang.blaze3d.vertex.PoseStack;
 import com.madspin.MadSpinMod;
+import net.minecraft.client.Minecraft;
 import net.minecraft.client.player.AbstractClientPlayer;
 import net.minecraft.client.renderer.MultiBufferSource;
 import net.minecraft.client.renderer.entity.player.PlayerRenderer;
@@ -18,7 +19,9 @@ public class PlayerRendererMixin {
     private void onRenderHead(AbstractClientPlayer player, float entityYaw, float partialTick,
                               PoseStack poseStack, MultiBufferSource bufferSource, int packedLight,
                               CallbackInfo ci) {
+        // 只对本地玩家生效
         if (!MadSpinMod.isSpinning) return;
+        if (player != Minecraft.getInstance().player) return;
 
         float angle = 0f;
         boolean isSpinMode = MadSpinMod.isSpinMode;
